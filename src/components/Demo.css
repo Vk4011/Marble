@@ -1,0 +1,48 @@
+
+.Frame{
+    position: absolute;
+    top: 30px;
+    left: 22px;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.metrics{
+    position: absolute;
+    top: 10px;
+    width: 780px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.m1{
+    width: 183px;
+    height: 70px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    /* border:none; */
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(196, 201, 203, 0.555);
+}
+
+.m2{
+    background-color: #FFFFFF;
+}
+.m2:hover{
+    background-color: rgba(196, 201, 203, 0.555);
+}
